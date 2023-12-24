@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        body{
+            margin: 0;
+            /* max-width: 2000px; */
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            background-color:#f0f8ffd7 ;
+        }
+        .header{
+            background-image: url(IMG_6630.PNG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 700px;
+        }
+        .header h1{
+            font-size: 50px;
+            margin-top: 10rem;
+            margin-left: 20px;
+            color:hsla(208, 100%, 97%, 0.843) ;
+        }
+        .title{
+            border-bottom:solid 2px ;
+            color: #f0f8ffd7;
+            margin-right: 50rem;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        .header p{
+            font-size: 16px;
+            margin-left: 20px;
+           color: hsla(208, 100%, 97%, 0.843)
+        }
+        .nav{
+            justify-content: flex-start;
+            display: flex;
+            background-color:rgb(120, 23, 23);
+            width: 100%;
+        }
+        .nav a{
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+           color: hsla(208, 100%, 97%, 0.843);
+        }
+        .nav-link {
+            /* padding-left: 20px; */
+            margin-left: 10rem;
+            margin-top: 7rem;
+            display: flex;
+            gap: 5px;
+        }
+        .nav-link a{
+            padding-left: 20px;
+            text-decoration: none;
+            padding: 20px 40px;
+            border-radius: 6px;
+        }
+        .dlink a{
+            background-color: hsla(208, 100%, 97%, 0.843);
+            color: rgb(229, 165, 91);
+        }
+        .dlink a:hover{
+            background-color:rgb(120, 23, 23);
+        }
+        .dlink2 a{
+            background-color: rgb(229, 165, 91);
+            color:rgba(240, 248, 255, 0.845);
+        }
+        .container{
+            margin-top: 70px;
+        }
+        .details{
+            display: flex;
+            justify-content: space-between;
+        }
+        .img{
+           box-shadow: 1px 1px 15px 0px rgba(104, 101, 101, 0.937); 
+           padding-bottom: 15px;
+        }
+        .img-text{
+            padding-left: 8px;
+        }
+        .img-link a{
+            text-decoration: none;
+            background-color:rgb(229, 165, 91) ;
+            color:rgb(120, 23, 23);
+            padding: 8px 20px;
+            border-radius: 3px;
+        }
+        .img-link{
+            padding-left: 8px;
+        }
+        .details2{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer{
+            background-color:rgb(120, 23, 23) ;
+            color:rgba(240, 248, 255, 0.845);
+            margin-top: 8px;
+        }
+        .footer-details , .footer-details2{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .contact{
+            padding-left: 10px;
+        }
+        .creater{
+            text-align: center;padding-bottom: 10px;
+        }
+        @media(max-width:767px){
+         body{width:38em;font-family: Arial;}
+         .header h1{
+            font-size: 40px;
+            margin-left: 10px;
+         }
+         .title,.header p{margin-left:10px;}
+         .nav-link {
+            margin-top: 8rem;
+            display:flex;
+        }
+        .nav-link a{
+            padding: 15px 25px;
+            border-radius: 5px;
+        }
+        .details,.details2{
+          display:grid;
+          box-sizing: border-box;
+          grid-template-columns:auto auto;
+          grid-template-rows:auto auto ;
+          justify-content: space-around;
+          row-gap:20px;
+        }
+        .img-text, .img-link{
+           text-align: center;
+        }
+        .img-link a{
+            padding: 10px 45px;
+            border-radius:0;
+        }
+    }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="#detail">Gallary</a>
+            <a href="contuctUs.html">Contact Us</a>
+        </nav>
+        <div class="title">
+        <h1>GULSOOM <br>Dresses Collection</h1>
+    </div>
+            <p> GULSOOM collection has different centers in Afghanistan .<br>This collection sew and buy as you ordered.<br>It has a center in Kabul and another is in Herat.<br>We provide the best qualities in different sizes for tou</p>
+             <div class="nav-link">
+            <div class="dlink">
+                <a href="contuctUs.html">Contact Us</a>
+            </div>
+            <div class="dlink2">
+            <a href="About.html">Discount</a>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="details" id="detail">
+            <div class="img">
+                <img src="OIP (1).jpg" alt="Afghani Dress" width="200" height="250">
+                    <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                <div class="img-link">
+                    <a href="#">Card</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="OIP (11).jpg" alt="Afghani Dress"  width="200" height="250">
+                    <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                <div class="img-link">
+                    <a href="#">Card</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="OIP.jpg" alt="Afghani Dress"  width="200" height="250">
+                
+                    <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                
+                <div class="img-link">
+                    <a href="#">Card</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="OIP (10).jpg" alt="Afghani Dress"  width="200" height="250">
+                
+                    <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                
+                <div class="img-link">
+                    <a href="#">Card</a>
+                </div>
+            </div>
+                </div>
+            
+            
+            <div class="details2">
+                <div class="img">
+                    <img src="IMG_6623.PNG" alt="Afghani Dress"  width="200" height="250">
+                
+                    
+                        <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                    
+                    <div class="img-link">
+                        <a href="#">Card</a>
+                    </div>
+                </div>
+               
+                    <div class="img">
+                    <img src="IMG_6621.JPG" alt="Afghani Dress"  width="200" height="250">
+               
+                   
+                        <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                    
+                    <div class="img-link">
+                        <a href="#">Card</a>
+                    </div>
+                </div>
+               
+                    <div class="img">
+                    <img src="IMG_6631.PNG" alt="Afghani Dress"  width="200" height="250">
+                        <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                    
+                    <div class="img-link">
+                        <a href="#">Card</a>
+                    </div>
+                </div>
+                    <div class="img">
+                    <img src="IMG_6624.PNG" alt="Afghani Dress"  width="200" height="250">
+                        <p class="img-text">It finds in different colors<br><strong>Afghani Dress</strong></p>
+                    
+                    <div class="img-link">
+                        <a href="#">Card</a>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-details">
+                <p>WhatsUp:</p>
+                <P>FaceBook:</P>
+                <P>Instagram:</P>
+                <P>Website:</P>
+            </div>
+              <div class="footer-details2">
+                <p>+937641456</p>
+                <p>http://.collection.FaceBook.com</p>
+                <p>http://.collection.Instagram.com</p>
+                <p>http://.collection.GULSOOM.com</p>
+              </div>
+              <p class="contact">Email:gulsoomcollection2025@.gmail.com</p>
+              <p class="contact">Contact us on social media!</p>
+              <p class="creater">This webpage has made by Shakiba Haidari</p>
+        </div>
+    </footer>
+</body>
+</html>
