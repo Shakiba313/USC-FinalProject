@@ -5,13 +5,14 @@ body{
     margin-right: auto;
     align-items: center;
     background-color:#f0f8ffd7 ;
+    font-family:'Volkhov', sans-serif;
 }
 .header{
     background-image: url(IMG_6630.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 750px;
 }
 .header h1{
     font-size: 50px;
@@ -32,8 +33,9 @@ body{
    color: hsla(208, 100%, 97%, 0.843)
 }
 .nav{
-    justify-content: flex-end;
+    justify-content: space-between;
     display: flex;
+    align-items:center;
     background-color:rgb(120, 23, 23);
     width: 100%;
 }
@@ -55,6 +57,7 @@ body{
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 6px;
+   
 }
 .dlink a{
     background-color: hsla(208, 100%, 97%, 0.843);
