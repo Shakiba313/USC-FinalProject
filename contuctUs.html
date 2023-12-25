@@ -4,114 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContuctUs</title>
-    <style>
-       body{
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        /* background-color: #781717; */
-       }
-       .container{
-        background-color:rgb(226, 156, 76) ;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        display: flex;
-        width: 600px;
-        /* height: 400px; */
-        margin-top: 2rem;
-        padding-bottom: 30px;
-       }
-       .form h1{
-        margin-bottom: 3rem;
-        text-align: center;
-        margin-top: 3rem;
-       }
-        .form{
-            padding-left: 30px;
-        }
-        .name,.name2,
-        .email,.option, .level, .checkbox{
-           padding-top: 10px;
-        }
-        #name,#email,#name2, #dropdown
-{
-            width: 530px;
-            height: 30px;
-        }
-        #checkbox,#large,#medium,#small{
-            cursor:pointer;
-        }
-        #btn{
-            margin-top: 30px;
-            cursor: pointer;
-            padding: 15px 25px;
-            background-color:#781717 ;
-            color:rgba(240, 248, 255, 0.843) ;
-            border: none;
-        }
-        .btnn{
-            text-align: center;
-        }
-        .nav{
-            justify-content: flex-end;
-            display: flex;
-            background-color:rgb(120, 23, 23);
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            overflow: hidden;
-            z-index: 1;
-            width: 100%;
-        }
-        .nav a{
-            text-decoration: none;
-            padding: 15px;
-            font-size: 18px;
-           color: rgba(240, 248, 255, 0.843)
-        }
-        .footer{
-            background-color:rgb(120, 23, 23) ;
-            color:rgba(240, 248, 255, 0.845);
-        }
-        .footer-details , .footer-details2{
-            display: flex;
-            justify-content: space-around;
-            padding: 10px;
-        }
-        .contact{
-            padding-left: 10px;
-        }
-        .creater{
-            text-align: center;padding-bottom: 10px;
-        }
-        @media(max-width:767px){
-            body{
-                width:36em;
-            }
-            .container{
-                width: 500px;
-            }
-            .form h1{
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        /* padding-right: 5rem; */
-        text-align: center;
-        margin-top: 3rem;
-       }
-       #name,#email,#name2, #dropdown{
-            width: 430px;
-            height: 25px;
-        }
-        .nav{
-            justify-content: flex-start;
-            display: flex;
-        }
-        }
-    </style>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <nav class="nav">
@@ -181,7 +74,7 @@
             <input type="checkbox" id="checkbox" name="checkbox">
     </div>
     <div class="btnn">
-        <button type="button" id="btn">Ordered</button>
+        <button type="button" id="btn">Submit</button>
     </div>
            </form> 
         </main>
